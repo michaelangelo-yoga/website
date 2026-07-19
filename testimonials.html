@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Read what students say about practicing yoga with Michael Angelo.">
+  <title>Testimonials | Michael Angelo Yoga</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="index.html" class="logo">Michael <span>Angelo</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="personal-training.html">Personal Training</a></li>
+        <li><a href="yoga.html">Yoga</a></li>
+        <li><a href="testimonials.html" class="active">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">What Students Say</h2>
+        <p class="section-subtitle">Hear from people who have made yoga and personal training a meaningful part of their lives.</p>
+        <div class="grid">
+          <div class="testimonial">
+            <blockquote>"Michael's classes are a perfect blend of challenge and compassion. I have never felt judged, only supported."</blockquote>
+            <cite>— Sarah M.</cite>
+          </div>
+          <div class="testimonial">
+            <blockquote>"I came to yoga with chronic back pain and zero flexibility. Within months, my posture, sleep, and mood all improved."</blockquote>
+            <cite>— David R.</cite>
+          </div>
+          <div class="testimonial">
+            <blockquote>"The private training sessions are transformational. Michael designs each workout specifically for what I need that day."</blockquote>
+            <cite>— Priya K.</cite>
+          </div>
+          <div class="testimonial">
+            <blockquote>"His calm, clear instruction makes even the hardest exercises feel approachable. I leave every session feeling stronger."</blockquote>
+            <cite>— Emma L.</cite>
+          </div>
+          <div class="testimonial">
+            <blockquote>"I have worked with many trainers, and Michael is one of the most knowledgeable and present I have found."</blockquote>
+            <cite>— James T.</cite>
+          </div>
+          <div class="testimonial">
+            <blockquote>"The restorative yoga and mobility work saved me during a stressful year. I cannot recommend them enough."</blockquote>
+            <cite>— Maria G.</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="personal-training.html">Personal Training</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="copyright">&copy; <span id="year"></span> Michael Angelo Yoga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

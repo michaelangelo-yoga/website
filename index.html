@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Michael Angelo Yoga - Find balance, strength, and peace through personalized yoga instruction.">
+  <title>Michael Angelo Yoga</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="index.html" class="logo">Michael <span>Angelo</span></a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="personal-training.html">Personal Training</a></li>
+        <li><a href="yoga.html">Yoga</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Breathe. Move. Become.</h1>
+        <p>Personalized yoga instruction and personal training with Michael Angelo to help you find balance, build strength, and cultivate lasting peace.</p>
+        <div class="hero-cta">
+          <a href="classes.html" class="btn btn-primary">View Classes</a>
+          <a href="personal-training.html" class="btn btn-secondary">Personal Training</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Welcome to the Practice</h2>
+        <p class="section-subtitle">Whether you are new to yoga or deepening a lifelong practice, each session is designed to meet you exactly where you are.</p>
+        <div class="grid">
+          <div class="card">
+            <h3>Personalized Guidance</h3>
+            <p>Every body is different. Sessions are tailored to your goals, experience level, and any physical considerations.</p>
+            <span class="card-meta">1-on-1 & small groups</span>
+          </div>
+          <div class="card">
+            <h3>Mindful Movement</h3>
+            <p>Explore breath-linked movement that builds flexibility, stability, and presence both on and off the mat.</p>
+            <span class="card-meta">All levels welcome</span>
+          </div>
+          <div class="card">
+            <h3>Lasting Wellness</h3>
+            <p>Develop practical tools for stress relief, better sleep, and a sustainable home practice that fits your life.</p>
+            <span class="card-meta">Online & in-person</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Featured Classes</h2>
+        <p class="section-subtitle">A variety of sessions to support your body, mind, and schedule.</p>
+        <div class="grid">
+          <div class="card">
+            <h3>Gentle Flow</h3>
+            <p>A slow, nourishing practice focused on breath, mobility, and deep relaxation. Ideal for beginners and recovery days.</p>
+            <span class="card-meta">60 min</span>
+          </div>
+          <div class="card">
+            <h3>Vinyasa Flow</h3>
+            <p>Dynamic sequences linked to breath that build strength, stamina, and focus. Open to all with modifications offered.</p>
+            <span class="card-meta">75 min</span>
+          </div>
+          <div class="card">
+            <h3>Restorative & Breath</h3>
+            <p>Supported poses, guided breathwork, and meditation to restore the nervous system and quiet the mind.</p>
+            <span class="card-meta">60 min</span>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 2.5rem;">
+          <a href="classes.html" class="btn btn-secondary">See Full Schedule</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p class="copyright">&copy; <span id="year"></span> Michael Angelo Yoga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="js/main.js"></script>
+</body>
+</html>

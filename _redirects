@@ -1,0 +1,8 @@
+# Cloudflare Pages _redirects
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Optional: force trailing slash or canonical paths
+# /home    /    301
+
+# Optional: custom 404
+# /404.html /404.html 404
