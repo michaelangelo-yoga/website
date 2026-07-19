@@ -169,12 +169,35 @@ main {
 
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, var(--color-accent-light) 0%, var(--color-bg) 100%);
-  padding: 6rem 1.5rem;
+  position: relative;
+  background-color: var(--color-text);
+  background-image: linear-gradient(
+      rgba(44, 42, 38, 0.55),
+      rgba(44, 42, 38, 0.45)
+    ),
+    url("../images/hero-waterfall.PNG");
+  background-image: linear-gradient(
+      rgba(44, 42, 38, 0.55),
+      rgba(44, 42, 38, 0.45)
+    ),
+    image-set(
+      url("../images/hero-waterfall.webp") type("image/webp"),
+      url("../images/hero-waterfall.PNG") type("image/png")
+    );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 8rem 1.5rem;
   text-align: center;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-content {
+  position: relative;
+  z-index: 1;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -184,13 +207,15 @@ main {
   font-size: 3rem;
   margin-bottom: 1rem;
   line-height: 1.2;
-  color: var(--color-text);
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
   font-size: 1.25rem;
-  color: var(--color-text-muted);
+  color: rgba(255, 255, 255, 0.92);
   margin-bottom: 2rem;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-cta {
@@ -198,6 +223,16 @@ main {
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.hero .btn-secondary {
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.hero .btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* Buttons */
