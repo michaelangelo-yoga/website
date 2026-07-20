@@ -250,7 +250,7 @@ main {
       url("../images/Yoga/MXDF104.webp") type("image/webp"),
       url("../images/Yoga/MXDF104.JPG") type("image/jpeg")
     );
-  background-position: center top;
+  background-position: center 25%;
 }
 
 /* Personal Training page hero background */
@@ -268,7 +268,7 @@ main {
       url("../images/personal_trainer.webp") type("image/webp"),
       url("../images/personal_trainer.jpg") type("image/jpeg")
     );
-  background-position: center top;
+  background-position: center 25%;
 }
 
 /* Buttons */
