@@ -250,7 +250,9 @@ main {
       url("../images/Yoga/MXDF104.webp") type("image/webp"),
       url("../images/Yoga/MXDF104.JPG") type("image/jpeg")
     );
-  background-position: center 25%;
+  background-position: center;
+  aspect-ratio: 3264 / 2042;
+  min-height: auto;
 }
 
 /* Personal Training page hero background */
@@ -268,7 +270,9 @@ main {
       url("../images/personal_trainer.webp") type("image/webp"),
       url("../images/personal_trainer.jpg") type("image/jpeg")
     );
-  background-position: center 25%;
+  background-position: center;
+  aspect-ratio: 2320 / 1632;
+  min-height: auto;
 }
 
 /* Buttons */
@@ -627,6 +631,12 @@ main {
   .about-image {
     min-height: 250px;
     order: -1;
+  }
+
+  .hero-yoga,
+  .hero-personal-training {
+    aspect-ratio: auto;
+    min-height: 70vh;
   }
 }
 
