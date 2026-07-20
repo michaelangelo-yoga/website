@@ -252,6 +252,23 @@ main {
     );
 }
 
+/* Personal Training page hero background */
+.hero-personal-training {
+  background-image: linear-gradient(
+      rgba(44, 42, 38, 0.55),
+      rgba(44, 42, 38, 0.45)
+    ),
+    url("../images/personal_trainer.jpg");
+  background-image: linear-gradient(
+      rgba(44, 42, 38, 0.55),
+      rgba(44, 42, 38, 0.45)
+    ),
+    image-set(
+      url("../images/personal_trainer.webp") type("image/webp"),
+      url("../images/personal_trainer.jpg") type("image/jpeg")
+    );
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
