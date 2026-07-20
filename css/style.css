@@ -235,6 +235,23 @@ main {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+/* Yoga page hero background */
+.hero-yoga {
+  background-image: linear-gradient(
+      rgba(44, 42, 38, 0.55),
+      rgba(44, 42, 38, 0.45)
+    ),
+    url("../images/Yoga/MXDF104.JPG");
+  background-image: linear-gradient(
+      rgba(44, 42, 38, 0.55),
+      rgba(44, 42, 38, 0.45)
+    ),
+    image-set(
+      url("../images/Yoga/MXDF104.webp") type("image/webp"),
+      url("../images/Yoga/MXDF104.JPG") type("image/jpeg")
+    );
+}
+
 /* Buttons */
 .btn {
   display: inline-block;
