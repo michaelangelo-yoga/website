@@ -18,18 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Contact form handling
-  const contactForm = document.getElementById('contact-form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', (event) => {
-      event.preventDefault();
-      const status = document.getElementById('form-status');
-      status.textContent = 'Thank you! Your message has been sent. We will be in touch soon.';
-      status.className = 'form-success';
-      contactForm.reset();
-    });
-  }
-
   // Simple lightbox for gallery images
   const galleryLinks = document.querySelectorAll('a[data-lightbox]');
   if (galleryLinks.length > 0) {
