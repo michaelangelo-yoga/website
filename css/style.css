@@ -556,6 +556,65 @@ main {
   opacity: 1;
 }
 
+/* Schedule page */
+.schedule-section-title {
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.class-details {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.class-details li {
+  margin-bottom: 0.35rem;
+}
+
+.schedule-table-wrapper {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-surface);
+  font-size: 0.95rem;
+}
+
+.schedule-table thead {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.schedule-table th {
+  font-weight: 600;
+}
+
+.schedule-table tbody tr:nth-child(even) {
+  background-color: var(--color-bg);
+}
+
+.schedule-table tbody tr:hover {
+  background-color: var(--color-accent-light);
+}
+
 /* Footer */
 .site-footer {
   background-color: var(--color-text);
